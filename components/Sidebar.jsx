@@ -11,23 +11,23 @@ const Sidebar = ({children}) => {
                 <div className='flex flex-col items-center'>
                     <Link href='/'>
                         <div className='bg-purple-800 text-white p-3 rounded-lg inline-block'>
-                            <RxSketchLogo size={20}/>
+                            <RxSketchLogo size={20} />
                         </div>
                     </Link>
                     <span className='border-b-[1px] border-gray-200 w-full p-2'></span>
                     <Link href='/'>
                         <div className='bg-gray-100 hover:bg-gray-200 cursor-poiter my-4 p-3 rounded-lg inline-block'>
-                            <RxDashboard size={20}/>
+                            <RxDashboard size={20} />
                         </div>
                     </Link>
                     <Link href='/clientes'>
                         <div className='bg-gray-100 hover:bg-gray-200 cursor-poiter my-4 p-3 rounded-lg inline-block'>
-                            <RxPerson size={20}/>
+                            <RxPerson size={20} />
                         </div>
                     </Link>
                     <Link href='/pedidos'>
                         <div className='bg-gray-100 hover:bg-gray-200 cursor-poiter my-4 p-3 rounded-lg inline-block'>
-                            <HiOutlineShoppingBag size={20}/>
+                            <HiOutlineShoppingBag size={20} />
                         </div>
                     </Link>
                     <Link href='/'>
